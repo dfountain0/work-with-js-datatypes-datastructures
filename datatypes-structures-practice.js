@@ -185,6 +185,7 @@ const clubs =  [
 
 // 5.Update Samuel Black's first name to Sam everywhere it occurs. Hint: there is not a great shortcut to do this.
     clubs[0].students(2).first = 'Sam'
+    clubs[2].students(2).first = 'Sam'
 
 // 6.Oops, the school is losing extracurricular funding. Use an array method to remove one of the clubs from the array.
 clubs.splice(1);
